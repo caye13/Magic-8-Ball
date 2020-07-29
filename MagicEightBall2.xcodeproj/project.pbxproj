@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 60F7730224D0DF9F00B40F8E /* Build configuration list for PBXProject "Magic 8-Ball" */;
+			buildConfigurationList = 60F7730224D0DF9F00B40F8E /* Build configuration list for PBXProject "MagicEightBall2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -319,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		60F7730224D0DF9F00B40F8E /* Build configuration list for PBXProject "Magic 8-Ball" */ = {
+		60F7730224D0DF9F00B40F8E /* Build configuration list for PBXProject "MagicEightBall2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60F7731924D0DFA100B40F8E /* Debug */,
