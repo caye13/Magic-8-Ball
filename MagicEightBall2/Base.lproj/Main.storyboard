@@ -15,41 +15,57 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="have a question?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MiD-Qg-fwu" userLabel="Answer Label">
+                                <rect key="frame" x="20" y="193" width="374" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="9M8-y4-tcJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="39"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cE8-PF-6zn">
+                                <rect key="frame" x="24" y="761" width="366" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="FX2-Ak-eFD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="26"/>
+                                <color key="tintColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="reset"/>
+                                <connections>
+                                    <action selector="resetToOriginalState:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ONx-Gk-YYk"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mGu-1h-Aru">
-                                <rect key="frame" x="20" y="797" width="374" height="65"/>
+                                <rect key="frame" x="20" y="313" width="374" height="65"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="FFa-a7-uf2"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="16"/>
-                                <color key="tintColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="26"/>
+                                <color key="tintColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="shake it!"/>
                                 <connections>
                                     <action selector="shakeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QRC-SH-vmx"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="have a question?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MiD-Qg-fwu" userLabel="Answer Label">
-                                <rect key="frame" x="20" y="172" width="374" height="125"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="9M8-y4-tcJ"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="28"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="mGu-1h-Aru" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Mq1-uy-uE8"/>
+                            <constraint firstItem="cE8-PF-6zn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="8kP-i1-RiJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cE8-PF-6zn" secondAttribute="bottom" constant="41" id="BNE-Sx-0NC"/>
+                            <constraint firstItem="mGu-1h-Aru" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-484" id="Mq1-uy-uE8"/>
                             <constraint firstItem="mGu-1h-Aru" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="RAQ-Km-NWD"/>
                             <constraint firstItem="mGu-1h-Aru" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Wb5-Gd-9lA"/>
                             <constraint firstItem="mGu-1h-Aru" firstAttribute="leading" secondItem="MiD-Qg-fwu" secondAttribute="leading" id="cJr-Ui-2HL"/>
-                            <constraint firstItem="MiD-Qg-fwu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="184" id="eB9-A9-8Yi"/>
+                            <constraint firstItem="MiD-Qg-fwu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="149" id="eB9-A9-8Yi"/>
                             <constraint firstItem="mGu-1h-Aru" firstAttribute="trailing" secondItem="MiD-Qg-fwu" secondAttribute="trailing" id="hgR-lV-qVk"/>
+                            <constraint firstItem="cE8-PF-6zn" firstAttribute="centerX" secondItem="mGu-1h-Aru" secondAttribute="centerX" id="tox-6V-5BJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="answerLabel" destination="MiD-Qg-fwu" id="5hy-hz-beU"/>
+                        <outlet property="resetButton" destination="cE8-PF-6zn" id="xYQ-yQ-ojc"/>
                         <outlet property="shakeButton" destination="MiD-Qg-fwu" id="aiz-y7-1d6"/>
                     </connections>
                 </viewController>
