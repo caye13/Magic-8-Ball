@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		60F7730724D0DF9F00B40F8E /* MagicEightBall2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicEightBall2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60F7730724D0DF9F00B40F8E /* MagicEightBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicEightBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60F7730A24D0DF9F00B40F8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60F7730C24D0DF9F00B40F8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		60F7730E24D0DF9F00B40F8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		60F772FE24D0DF9F00B40F8E = {
 			isa = PBXGroup;
 			children = (
-				60F7730924D0DF9F00B40F8E /* MagicEightBall2 */,
+				60F7730924D0DF9F00B40F8E /* MagicEightBall */,
 				60F7730824D0DF9F00B40F8E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		60F7730824D0DF9F00B40F8E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				60F7730724D0DF9F00B40F8E /* MagicEightBall2.app */,
+				60F7730724D0DF9F00B40F8E /* MagicEightBall.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		60F7730924D0DF9F00B40F8E /* MagicEightBall2 */ = {
+		60F7730924D0DF9F00B40F8E /* MagicEightBall */ = {
 			isa = PBXGroup;
 			children = (
 				60F7730A24D0DF9F00B40F8E /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				60F7731524D0DFA100B40F8E /* LaunchScreen.storyboard */,
 				60F7731824D0DFA100B40F8E /* Info.plist */,
 			);
-			path = MagicEightBall2;
+			path = MagicEightBall;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		60F7730624D0DF9F00B40F8E /* MagicEightBall2 */ = {
+		60F7730624D0DF9F00B40F8E /* MagicEightBall */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60F7731B24D0DFA100B40F8E /* Build configuration list for PBXNativeTarget "MagicEightBall2" */;
+			buildConfigurationList = 60F7731B24D0DFA100B40F8E /* Build configuration list for PBXNativeTarget "MagicEightBall" */;
 			buildPhases = (
 				60F7730324D0DF9F00B40F8E /* Sources */,
 				60F7730424D0DF9F00B40F8E /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = MagicEightBall2;
+			name = MagicEightBall;
 			productName = MagicEightBall2;
-			productReference = 60F7730724D0DF9F00B40F8E /* MagicEightBall2.app */;
+			productReference = 60F7730724D0DF9F00B40F8E /* MagicEightBall.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,14 +95,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1160;
-				ORGANIZATIONNAME = "Make School";
+				ORGANIZATIONNAME = caye;
 				TargetAttributes = {
 					60F7730624D0DF9F00B40F8E = {
 						CreatedOnToolsVersion = 11.6;
 					};
 				};
 			};
-			buildConfigurationList = 60F7730224D0DF9F00B40F8E /* Build configuration list for PBXProject "MagicEightBall2" */;
+			buildConfigurationList = 60F7730224D0DF9F00B40F8E /* Build configuration list for PBXProject "MagicEightBall" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				60F7730624D0DF9F00B40F8E /* MagicEightBall2 */,
+				60F7730624D0DF9F00B40F8E /* MagicEightBall */,
 			);
 		};
 /* End PBXProject section */
@@ -291,8 +291,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.MagicEightBall2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caye.MagicEightBall2;
+				PRODUCT_NAME = MagicEightBall;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -309,8 +309,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.MagicEightBall2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caye.MagicEightBall2;
+				PRODUCT_NAME = MagicEightBall;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -319,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		60F7730224D0DF9F00B40F8E /* Build configuration list for PBXProject "MagicEightBall2" */ = {
+		60F7730224D0DF9F00B40F8E /* Build configuration list for PBXProject "MagicEightBall" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60F7731924D0DFA100B40F8E /* Debug */,
@@ -328,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60F7731B24D0DFA100B40F8E /* Build configuration list for PBXNativeTarget "MagicEightBall2" */ = {
+		60F7731B24D0DFA100B40F8E /* Build configuration list for PBXNativeTarget "MagicEightBall" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60F7731C24D0DFA100B40F8E /* Debug */,

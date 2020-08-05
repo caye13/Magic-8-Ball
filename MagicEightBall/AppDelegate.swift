@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  MagicEightBall2
 //
-//  Created by Ck2 Jedi on 7/28/20.
-//  Copyright © 2020 Make School. All rights reserved.
+//  Created by Caye on 7/28/20.
+//  Copyright © 2020 caye. All rights reserved.
 //
 
 import UIKit
